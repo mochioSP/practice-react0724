@@ -8,7 +8,7 @@ const App = () => {
   const [num, setNum] = useState(0);
   return (
     <>
-      <h1 style={{ color: "red" }}>こんにちは！</h1>
+      <h1 style={{ color: "red" }}>こんにちは</h1>
       <ColorfulMessage color="blue">お元気ですか</ColorfulMessage>
       <ColorfulMessage color="pink">元気です！</ColorfulMessage>
       <button onClick={onClickCountUp}>カウントアップ</button>
